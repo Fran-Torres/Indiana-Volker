@@ -1,13 +1,14 @@
 import React from 'react';
 /*import './App.css';*/
-import latestNews from './pages/latestNews';
+import './index.css';
+import LatestNews from './pages/LatestNews';
 
-function latestNews() {
+function App() {
   return (
-   <latestNews/>
-
-
+    <>
+     <LatestNews/>
+    </>
   );
 }
 
-export default latestNews;
+export default App;

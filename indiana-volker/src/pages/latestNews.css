@@ -1,5 +1,82 @@
-.latestnews {
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: #E5E5E5;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.reciente {
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 450px;
+    text-align: center;
+    margin: 5px;
+    padding: 0px;
+    border: 0px;
+}
+
+.contenedor {
+    display: grid;
+    width: 415px;
+    height: 445px;
+}
+
+img {
+    width: 415px;
+    height: 400px;
+    margin: 0px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    margin: 15px;
+}
+
+@media all and (max-widht: 420px){
+    .reciente {
+        font-family: Arial, Helvetica, sans-serif;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 350px;
+        text-align: center;
+        margin: 5px;
+        padding: 0px;
+        border: 0px;
+    }
+}
+
+@media all and (max-widht: 420px){
+    img {
+        width: 420px;
+        height: 400px;
+    }
+}
+
+@media all and (min-widht: 421px) and (max-width: 768px){
+    .reciente {
+        font-family: Arial, Helvetica, sans-serif;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 350px;
+        text-align: center;
+        margin: 5px;
+        padding: 0px;
+        border: 0px;
+    }
+}
+
+@media all and (min-widht: 421px) and (max-width: 768px){
+    img {
+        width: 620px;
+        height: 400px;
+    }
 }
