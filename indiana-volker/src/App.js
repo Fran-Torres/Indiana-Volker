@@ -1,26 +1,21 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import "./Pages/LandPage.css";
+import fluid from "react-bootstrap"
+import Image from 'react-bootstrap/Image'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <div className="banerselector" id="main-banner" >
+            <img className="banner" alt="banner" src="./IV_background.jpg" fluid />
+            <div className="main-banner_data s-center">
+            </div>
+          </div>
+       
+    </>
+  )
 }
 
 export default App;

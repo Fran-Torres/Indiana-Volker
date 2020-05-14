@@ -1,0 +1,7 @@
+.banner{
+    object-fit: cover; width: 100%; height:500px;padding-top: 40px;
+}
+
+.bannerselector{
+    width:1440px; height:700px; margin:0px; padding:0;
+}
