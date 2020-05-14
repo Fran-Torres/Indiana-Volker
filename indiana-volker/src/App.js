@@ -1,12 +1,18 @@
 import React from 'react';
-/*import './App.css';*/
+import './App.css';
 import './index.css';
-import LatestNews from './pages/LatestNews';
+import './navbar-footer.css';
+import './latestNews.css'
+import LatestNews from './latestNews';
+import Navbar from './navbar';
+import Footer from './footer';
 
 function App() {
   return (
     <>
-     <LatestNews/>
+    <Navbar/>
+    <LatestNews/>
+    <Footer/>
     </>
   );
 }
