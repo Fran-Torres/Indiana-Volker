@@ -1,14 +1,15 @@
 import React from 'react'
 import './navbar-footer.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Navbar() {
   return (
     <nav>
-      <i className="fas fa-bars" id="hamburguer-menu"></i>
+      <FontAwesomeIcon icon="bars" id="hamburguer-menu" className="icon" />
       <img src={require ("./assets/Logo_indiana_volker_fondo_transaprente_Big.png") } id="nav-logo" alt="Indiana Volker Logo"/>
-      <i className="fas fa-shopping-cart" id="shopping-cart"></i>
+      <FontAwesomeIcon icon="shopping-cart" id="shopping-cart" className="icon" />
     </nav>
   )
-}
+};
 
 

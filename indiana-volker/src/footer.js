@@ -1,15 +1,16 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Footer() {
   return (
   <div>
     <div className="social-media" id="social-media">
-      <i className="fab fa-youtube"></i>
-      <i className="fab fa-twitter-square"></i>
-      <i className="fab fa-spotify"></i>
-      <i className="fab fa-instagram"></i>
-      <i className="fas fa-envelope"></i>
-      <i className="fab fa-facebook-square"></i>
+      <FontAwesomeIcon icon={['fab', 'youtube']} className="social-media-icon"/>
+      <FontAwesomeIcon icon={['fab', 'twitter']} className="social-media-icon"/>
+      <FontAwesomeIcon icon={['fab', 'spotify']} className="social-media-icon"/>
+      <FontAwesomeIcon icon={['fab', 'instagram']} className="social-media-icon"/>
+      <FontAwesomeIcon icon="envelope" className="social-media-icon" />
+      <FontAwesomeIcon icon={['fab', 'facebook']} className="social-media-icon"/>
     </div>
     <footer>
       <p id="copyright">Copyright Indiana Volker 2020</p>

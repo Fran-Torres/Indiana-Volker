@@ -5,18 +5,18 @@ function latestNews(){
   return (
     <>
        <h1><strong>Últimos Lanzamientos</strong></h1>
-       <section class="reciente">
-          <div class="contenedor">
+       <section className="reciente">
+          <div className="contenedor">
              <img src="/assets/Balanza 1_upload.jpg" alt="Foto de portada del albúm Balanza 1" />
-             <p><strong>Ir al albúm</strong></p>
+               <a className="news-link">Ir Al Álbum</a>
           </div>
-          <div class="contenedor">
+          <div className="contenedor">
              <img src="/assets/Balanza 2_upload.jpg" alt="Foto de portada del albúm Balanza 2" />
-             <p><strong>Ir al albúm</strong></p>
+             <a className="news-link">Ir Al Álbum</a>
           </div>
-          <div class="contenedor">
+          <div className="contenedor">
              <img src="/assets/IV - McCarthys (14 of 38).jpg" alt="Foto de toquin en bar McCarthys" />
-             <p><strong>McCarthys</strong></p>
+             <a className="news-link">McCarthys</a>
           </div>
        </section>
     </>
