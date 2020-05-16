@@ -22,12 +22,16 @@ body{
 h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 3em;
     margin-top: 1rem;
 }
 
-.news-link:hover{
-    color: #EA8710;
+#Berni:hover,#Taylor:hover,#Ibarra:hover{
+    transform: scale(1.3);
+}
+
+#Berni,#Taylor,#Ibarra{
+    font-size: 1.5em;
 }
 
 .reciente {

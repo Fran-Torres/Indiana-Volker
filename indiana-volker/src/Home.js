@@ -13,15 +13,15 @@ function Home(){
        <section className="reciente">
           <div className="contenedor">
              <img src="/assets/Balanza 1_upload.jpg" alt="Foto de portada del albúm Balanza 1" />
-               <a className="news-link">Ir al Álbum</a>
+               <a id="Berni"><strong>Ir al Álbum</strong></a>
           </div>
           <div className="contenedor">
              <img src="/assets/Balanza 2_upload.jpg" alt="Foto de portada del albúm Balanza 2" />
-             <a className="news-link">Ir al Álbum</a>
+             <a id="Taylor"><strong>Ir al Álbum</strong></a>
           </div>
           <div className="contenedor">
              <img src="/assets/IV - McCarthys (14 of 38).jpg" alt="Foto de toquin en bar McCarthys" />
-             <a className="news-link">McCarthys</a>
+             <a id="Ibarra"><strong>McCarthys</strong></a>
           </div>
        </section>
     </>
