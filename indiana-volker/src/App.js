@@ -8,8 +8,8 @@ import Image from 'react-bootstrap/Image'
 function App() {
   return (
     <>
-      <div className="banerselector" id="main-banner" >
-            <img className="banner" alt="banner" src="./IV_background.jpg" fluid />
+      <div className="bannerselector" id="main-banner" >
+            <img className="banner" alt="banner" src="./IV_background.png" fluid />
             <div className="main-banner_data s-center">
             </div>
           </div>
