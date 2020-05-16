@@ -34,22 +34,11 @@ img {
     margin: 0px;
 }
 
-/* p {
+p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 15px;
     margin: 15px;
-} */
-
-.news-link {
-    text-decoration: none;
-    color: black;
-    position: relative;
-    font-weight: bolder;
-}
-
-.news-link :hover {
-    transform: scale(1.2);
 }
 
 @media all and (max-widht: 420px){
