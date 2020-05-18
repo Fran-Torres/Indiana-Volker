@@ -2,16 +2,16 @@ import React from 'react';
 import './App.css';
 import './index.css';
 import './components/Navbar-footer.css';
-import Home from './Pages/Home.js';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Home from './pages/Home.js';
+import Navbar from './components/Navbar.js';
+import Footer from './components/Footer.js';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faBars, faShoppingCart, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { BrowserRouter as Router, Switch, Route, Redirect, BrowserRouter, Link } from "react-router-dom";
-import Balanza1 from './Pages/Balanza1';
-import Balanza2 from './Pages/Balanza2';
-import McCarthys from './Pages/McCarthys';
+import Balanza1 from './pages/Balanza1.js';
+import Balanza2 from './pages/Balanza2.js';
+import McCarthys from './pages/McCarthys.js';
 
 library.add(fab, faBars, faShoppingCart, faEnvelope)
 
