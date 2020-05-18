@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Pages/Home.css';
+import '../pages/Home.css';
 
 export default function step2() {
     return (
