@@ -12,8 +12,8 @@ function Home() {
          </div>
          <h1><strong>Últimos Lanzamientos</strong></h1>
          <section className="reciente">
-            <Row style={{textAlign:'center'}}>
-               <Col style={{textAlign:'center'}}>
+            <Row>
+               <Col>
                   <div className="contenedor">
                      <img src="/assets/Balanza 1_upload.jpg" alt="Foto de portada del albúm Balanza 1" />
                      <a id="Berni"><strong>Ir al Álbum</strong></a>
