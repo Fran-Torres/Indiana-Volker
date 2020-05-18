@@ -1,21 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import "./Pages/LandPage.css";
-import fluid from "react-bootstrap"
-import Image from 'react-bootstrap/Image'
+import './index.css';
+import './navbar-footer.css';
+import Home from './Home.js';
+import Navbar from './navbar';
+import Footer from './footer';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faBars, faShoppingCart, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
+
+library.add(fab, faBars, faShoppingCart, faEnvelope)
 
 function App() {
   return (
     <>
-      <div className="bannerselector" id="main-banner" >
-            <img className="banner" alt="banner" src="./IV_background.png" fluid />
-            <div className="main-banner_data s-center">
-            </div>
-          </div>
-       
+    <Navbar/>
+    <Home/>
+    <Footer/>
     </>
-  )
+  );
 }
 
 export default App;

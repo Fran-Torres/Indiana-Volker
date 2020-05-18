@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  background-color: pink;
+  color: black;
+}
+
+/* Navbar */
+#nav-logo {
+  width: auto;
+  height: 1.5rem;
+  margin-left: 1rem;
+  margin-top: 7px;
+}
+
+nav {
+  margin-top: -.2rem;
+  display: flex;
+  justify-content: flex-start;
+  height: 40px;
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, .85);
+  z-index: 100
+}
+
+#shopping-cart {
+  margin-left: auto;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+#hamburguer-menu {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+/* Navbar */
+
+/* Social Media section */
+
+#social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5em;
+  margin-bottom: 60px;
+}
+
+section {
+  height: 100vh;
+}
+
+/* Footer section */
+
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+}
+
+#copyright {
+  text-align: center;
+  padding-top: 3px;
+  margin: 0;
+}
+
+#footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: -23px;
+  margin: 0px 65px 16px 0px;
+}
+
+i {
+  margin: 5px;
+}
+
+.icon{
+  font-size: 30px;
+}
+
+.social-media-icon{
+  font-size: 30px;
+}
+
+.social-media-icon:hover {
+  transform: scale(1.3);
+}
+
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  display: block;
+  color: #FFF;
+  text-decoration: none;
+  padding: .5rem .5rem 1 0;
+  font-size: 12px;
+  margin: .5rem;
+}
+
+footer ul li a:hover {
+  font-size: larger;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+/* Footer section */
