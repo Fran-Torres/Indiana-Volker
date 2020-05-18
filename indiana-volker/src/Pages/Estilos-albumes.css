@@ -1,0 +1,13 @@
+div.Balanza1estilos {
+    background-image: url(../assets/Balanza\ 1_upload.jpg);
+    background-size: 100%; 
+    width: 100vw;
+    height: 80vw;
+}
+
+div.Balanza2estilos {
+    background-image: url(../assets/Balanza\ 2_Upload.jpg);
+    background-size: 100%; 
+    width: 100vw;
+    height: 80vw;
+}
