@@ -1,12 +1,11 @@
 import React from 'react';
 import '../pages/Home.css';
 
-
-export default function step3() {
+export default function step2() {
     return (
         <div className="contenedor">
-                     <img src="/assets/IV - McCarthys (14 of 38).jpg" alt="Foto de toquin en bar McCarthys" />
-                     <a id="Ibarra"><strong>McCarthys</strong></a>
-                  </div>
+            <img src="/assets/IV - McCarthys.jpg" alt="Foto de portada del albúm Balanza 2" />
+            <Link to="/McCarthys" id="Taylor"><strong>McCarthys</strong></Link>
+        </div>
     )
 }

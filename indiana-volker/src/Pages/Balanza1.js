@@ -9,12 +9,12 @@ import { Row, Col } from 'reactstrap';
 export default function Balanza1() {
     return (
         <>
-            <Navbar />
+          
             <Row>
                 <div className="Balanza1estilos">
                 </div>
             </Row>
-            <Footer />
+          
         </>
     )
 }

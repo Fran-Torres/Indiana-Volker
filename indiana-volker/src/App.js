@@ -20,14 +20,15 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <Home />
-        <Footer />
+
         <Switch>
+          <Route exact path='/' component={Home} />
           <Route exact path='/Balanza1' component={Balanza1} />
           <Route exact path='/Balanza2' component={Balanza2} />
           <Route exact path='/McCarthys' component={McCarthys} />
-          <Route exact path='/Home' component={Home} />
+
         </Switch>
+        <Footer />
       </Router>
     </>
   );

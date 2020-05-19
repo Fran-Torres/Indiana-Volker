@@ -16,6 +16,7 @@ function Home() {
          </div>
          <h1><strong>Últimos Lanzamientos</strong></h1>
          <section className="reciente">
+       
             <Row>
                <Col>
                   <Step1 />
