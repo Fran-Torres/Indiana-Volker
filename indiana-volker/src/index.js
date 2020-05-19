@@ -1,5 +1,6 @@
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 import 'font-awesome/css/font-awesome.min.css';
+
 // Todo archivo de React debe de llevar esta línea que importa React en el
 // ámbito de este archivo. Es necesario para todo archivo que tenga `React`
 // dentro
@@ -22,4 +23,5 @@ import App from './App';
 // Se está montando App en el elemento HTML que tenga por id `root`
 ReactDOM.render(<App />, document.getElementById('root'));
 
+	
 
