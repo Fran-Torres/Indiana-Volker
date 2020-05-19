@@ -91,6 +91,10 @@ i {
   font-size: 30px;
 }
 
+a:link{
+  color:black;
+}
+
 .social-media-icon:hover {
   transform: scale(1.3);
 }
