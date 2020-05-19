@@ -46,6 +46,10 @@ nav {
   margin-bottom: 60px;
 }
 
+a.social-media-icon{
+  text-decoration: none;
+}
+
 section {
   height: 100vh;
 }
