@@ -1,6 +1,5 @@
 import React from 'react';
-import '../Pages/Home.css';
-import { Link } from 'react-router-dom';
+import '../pages/Home.css';
 
 export default function step2() {
     return (
