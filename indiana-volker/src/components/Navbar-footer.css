@@ -50,6 +50,10 @@ a.social-media-icon{
   text-decoration: none;
 }
 
+a:link{
+  color: black;
+}
+
 section {
   height: 100vh;
 }
