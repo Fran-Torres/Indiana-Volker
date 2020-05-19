@@ -48,7 +48,12 @@ nav {
 
 a.social-media-icon{
   text-decoration: none;
-}
+  color: black;
+  }
+ 
+ a:link{
+   color:black;
+ } 
 
 section {
   height: 100vh;

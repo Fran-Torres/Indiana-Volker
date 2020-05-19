@@ -1,8 +1,14 @@
+@import url("https://fonts.google.com/specimen/Black+Ops+One/");
+
+
 div.Balanza1estilos {
     background-image: url(../assets/Balanza\ 1_upload.jpg);
     background-size: 100%; 
     width: 100vw;
     height: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.Balanza2estilos {
@@ -10,4 +16,38 @@ div.Balanza2estilos {
     background-size: 100%; 
     width: 100vw;
     height: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+iframe{
+    margin-right: 100em;
+    width:600px;
+    height:200px;
+    margin-left: 28em;
+    margin-top: 5em;
+    background-color: rgba(0,0,0,1);
+}
+
+div.descrAlbum1{
+    margin-right: 100em;
+    width:600px;
+    height:200px;
+    margin-left: 25em;
+    color: white;
+    font-size: 1.2em;
+    font-family:  'Black Ops One';
+}
+
+div.descrAlbum2{
+    margin-right: 100em;
+    width:600px;
+    height:200px;
+    margin-left: 25em;
+    color: black;
+    font-size: 1.2em;
+    font-family:  'Black Ops One';
+}
+
+
