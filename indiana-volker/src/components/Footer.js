@@ -16,9 +16,9 @@ export default function Footer() {
     <footer>
       <p id="copyright">Copyright Indiana Volker 2020</p>
       <ul id="footer-links">
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Terms & Conditions</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a classname="contactLinks" href="#">Privacy Policy</a></li>
+        <li><a classname="contactLinks" href="#">Terms & Conditions</a></li>
+        <li><a classname="contactLinks" href="#">Contact</a></li>
       </ul>
     </footer>
   </div>
