@@ -21,7 +21,6 @@ function App() {
     <>
       <Router>
         <Navbar />
-
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/Balanza1' component={Balanza1} />
@@ -31,7 +30,6 @@ function App() {
         </Switch>
         <Footer />
       </Router>
-
     </>
   );
 
